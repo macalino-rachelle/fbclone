@@ -839,3 +839,151 @@
     background-color: #dbdbdb;
     transition: 0.2s;
   }
+   
+  @media (max-width: 1190px) {
+    .main > .left {
+      display: none;
+    }
+  
+    .main > .center {
+      margin-left: 10px;
+    }
+  }
+  
+  @media (max-width: 1075px) {
+    .navbar > .left > .inpu {
+      display: none;
+    }
+  
+    .navbar > .left > .search {
+      display: block;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  
+  @media (max-width: 900px) {
+    .navbar > .between > .pages {
+      width: 50px;
+      height: 40px;
+      font-size: 22px;
+    }
+  
+    .main > .right {
+      display: none;
+    }
+  
+    .main {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  
+  @media (max-width: 660px) {
+    .navbar > .right > .icon {
+      display: none;
+    }
+  
+    .main > .center {
+      width: 100%;
+    }
+  
+    .main > .center > .top_box {
+      margin-left: 4px;
+    }
+  
+    .main > .center > .top_box > .shaban {
+      display: none;
+    }
+  
+    .main > .center > .my_post > .post_bottom > .post_icon > i.red,
+    .main > .center > .my_post > .post_bottom > .post_icon > i.green,
+    .main > .center > .my_post > .post_bottom > .post_icon > i.yellow {
+      font-size: 17px;
+    }
+  
+    .main > .center > .my_post > .post_bottom > .post_icon > p {
+      font-size: 13px;
+    }
+  
+    .main > .center > .my_post > .post_bottom > .post_icon {
+      padding: 6px 7px;
+    }
+  
+    .main > .center > .friends_post > .like > .like_icon > i {
+      font-size: 18px;
+    }
+  
+    .main > .center > .friends_post > .like > .like_icon > p {
+      font-size: 13px;
+    }
+  }
+  
+  @media (max-width: 495px) {
+    .navbar > .between {
+      display: none;
+    }
+    .navbar > .right > .plus {
+      display: block;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .navbar > .left > .inpu {
+      display: block;
+      display: flex;
+      align-items: center;
+      width: 140px;
+    }
+  
+    .navbar > .left > .inpu > input {
+      width: 90px;
+    }
+  
+    .navbar > .left > .search {
+      display: none;
+    }
+  }
+  
+  @media (max-width: 465px) {
+    .main > .center > .top_box > .story_card,
+    .main > .center > .top_box > .my_story_card {
+      width: 90px;
+    }
+  
+    .main > .center > .my_post > .post_bottom {
+      display: block;
+    }
+  
+    .main > .center > .my_post > .post_top > input::placeholder {
+      font-size: 13px;
+    }
+  
+    .main > .center {
+      width: 100%;
+      height: auto;
+      padding: 20px 5px 20px 10px;
+    }
+  
+    .main > .center > .friends_post > .info > .emoji_img > p {
+      font-size: 13px !important;
+    }
+  
+    .main > .center > .friends_post > .info > .emoji_img > img {
+      width: 15px;
+      height: 15px;
+    }
+  
+    .main > .center > .friends_post > .info > .comment > p {
+      padding: 0 12px;
+      font-size: 13px;
+    }
+  
+    .main > .center > .friends_post > .like > .like_icon > p {
+      font-size: 11px;
+    }
+  }
+  
